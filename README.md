@@ -8,7 +8,7 @@ If your application show this message or similar:
 
 Edit the file core.php (** Config/core.php **)
 
-´´´
+```
 Cache::config ( '_cake_core_' , array ( 
     'engine'  => $engine , 
     'prefix'  =>  'cake_core_' , 
@@ -27,6 +27,6 @@ Cache::config ( '_cake_model_' , array (
     'mask'  =>  0666 
 ));
 
-´´´
+```
 
 
